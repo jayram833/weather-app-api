@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.list {
+  padding: 5px;
+}
+
+.items {
+  padding: 5px;
+}
+
+.card {
+  color: #fff;
+  width: 30vw;
+  height: 70vh;
+  padding-left: 20px;
+  border-radius: 5px;
+
+  background-image: url("https://i.pinimg.com/564x/f7/1b/4f/f71b4fb3a72755deed7b1788d7101f0d.jpg");
+  background-size: contain;
+}
+
+.temp {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.day {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.location {
+  padding-bottom: 20px;
+}
